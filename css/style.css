@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-image: url("../images/background.jpg");
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    "a a a"
+    "f f f";
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header{
+    grid-area: h;
+}
+
+header img{
+    width: 100%;
+}
+
+article{
+    grid-area: a;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.platforms .availabilities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.platforms h1{
+    border-bottom: 2px solid white;
+    margin: auto;
+    width: 15%;
+    font-size: 40px;
+}
+
+
+.platforms .availabilities .platform a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+.platforms .availabilities .platform a:hover{
+    border: 4px solid white;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.milestones{
+    margin-top: 40px;
+}
+
+.milestones h1{
+    border-bottom: 2px solid white;
+    margin: auto;
+    width: 15%;
+    font-size: 40px;
+}
+
+.milestones .awards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.milestones .awards .award{
+    background-color: rgb(22, 22, 22);
+    margin: 10px;
+    border: 2px solid rgb(22, 22, 22);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+.milestones .awards .award:hover{
+    background-color: rgb(22, 22, 22);
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.explainfriendly .crews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.explainfriendly .crews .crew p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.explainenemy .susys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.places .rooms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.places .rooms .room img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    grid-area: f;
+    text-align: center;
+}
+
+footer img{
+    margin: 0;
+}
