@@ -55,10 +55,8 @@ article{
     white-space: nowrap;
 }
 
-.platforms h1{
+.platforms h1 span{
     border-bottom: 2px solid white;
-    margin: auto;
-    width: 15%;
     font-size: 40px;
 }
 
@@ -112,10 +110,8 @@ article{
     margin-top: 40px;
 }
 
-.milestones h1{
+.milestones h1 span{
     border-bottom: 2px solid white;
-    margin: auto;
-    width: 15%;
     font-size: 40px;
 }
 
@@ -151,6 +147,18 @@ article{
 
 
 
+.introduction{
+    background-image: url("../images/artback2.jpg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    height: 8%;
+    font-size: 25px;
+}
+
+.introduction h1 span{
+    border-bottom: 2px solid white;
+}
 
 
 
@@ -172,16 +180,26 @@ article{
 
 
 
-
-
+.explainfriendly{
+    margin-bottom: 40px;
+}
 
 .explainfriendly .crews{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
 }
 
-.explainfriendly .crews .crew p{
-    text-align: center;
+.explainfriendly .crews .crew img{
+    float: left;
+    width: 12%;
+    margin-right: 15px;
+}
+
+.explainfriendly .crews .crew{
+    margin: 20px;
 }
 
 
@@ -205,8 +223,20 @@ article{
 .explainenemy .susys{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
 }
 
+.explainenemy .susys .sus img{
+    float: left;
+    width: 12%;
+    margin-right: 15px;
+}
+
+.explainenemy .susys .sus{
+    margin: 20px;
+}
 
 
 
@@ -255,7 +285,6 @@ footer img{
     margin: 0;
 }
 
-/*srgterwghe*/
 
 
 
