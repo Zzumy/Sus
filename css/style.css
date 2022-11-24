@@ -68,7 +68,7 @@ article{
     color: white;
     border: 2px solid white;
     border-radius: 5px;
-    padding: 15px;
+    padding: 15px 5px;
 }
 
 
@@ -78,7 +78,7 @@ article{
 }
 
 .platforms .availabilities .platform{
-    padding: 15px;
+    padding: 20px 5px;
 }
 
 
@@ -229,6 +229,8 @@ article{
 }
 
 .places .rooms .room img{
+    display: inline;
+    max-width: 400px;
     width: 100%;
 }
 
@@ -253,12 +255,52 @@ footer{
 
 footer img{
     margin: 0;
+    width: 100%;
 }
 
 /* képernyő hossz különbség */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
     .platforms .availabilities{
         grid-template-columns: repeat(8,auto);
     }
+
 }
-/*kalskdélaskldklak*/
+
+@media only screen and (max-width: 1100px) {
+    .platforms .availabilities{
+        grid-template-columns: repeat(7,auto);
+    }
+    .places .rooms{
+        grid-template-columns: 1fr 1fr;
+    }
+    .milestones .awards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .explainenemy .susys{
+        grid-template-columns: 1fr 1fr;
+    }
+    .explainfriendly .crews{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .platforms .availabilities{
+        grid-template-columns: repeat(6,auto);
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .platforms .availabilities{
+        grid-template-columns: repeat(5,auto);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .platforms .availabilities{
+        grid-template-columns: repeat(4,auto);
+        
+    }
+    .milestones .awards{
+        grid-template-columns: 1fr;
+    }
+}
