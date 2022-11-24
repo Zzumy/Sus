@@ -50,8 +50,9 @@ article{
 
 .platforms .availabilities{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(9,auto);
     margin-top: 40px;
+    white-space: nowrap;
 }
 
 .platforms h1{
@@ -76,6 +77,9 @@ article{
     transition: 0.2s;
 }
 
+.platforms .availabilities .platform{
+    padding: 15px;
+}
 
 
 
@@ -249,4 +253,11 @@ footer{
 
 footer img{
     margin: 0;
+}
+
+/* képernyő hossz különbség */
+@media only screen and (max-width: 1200px) {
+    .platforms .availabilities{
+        grid-template-columns: repeat(8,auto);
+    }
 }
