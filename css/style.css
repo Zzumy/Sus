@@ -11,7 +11,7 @@ main{
     "a a a"
     "f f f";
     font-family: 'Poppins', sans-serif;
-    color: white;
+
 }
 
 header{
@@ -27,6 +27,9 @@ article{
     text-align: center;
 }
 
+html{
+    color: white;
+}
 
 
 
@@ -360,4 +363,22 @@ footer img{
     .platforms .availabilities{
         grid-template-columns: repeat(3,auto);
     }
+}
+
+
+
+
+
+
+#teszt img{
+    width: 500px;
+}
+#teszt{
+    margin: auto;
+    overscroll-behavior: contain;
+    width: 500px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
 }

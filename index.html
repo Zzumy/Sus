@@ -229,17 +229,65 @@
         </footer>
     </main>
     <!-- teszt -->
-    <!-- <img id="gal">
+    <!-- <img id="gal" style="position: absolute;">
     <script>
         tomb=["images/o2.jpg","images/rect.jpg"]
         hol=0
         document.getElementById("gal").src=tomb[hol]
         function elore(){
-            document.getElementById("gal").src=tomb[++hol]
+            //document.getElementById("gal").src=tomb[++hol]
+            var x=document.createElement("img")
+            x.src="images/1.jpg"
+            document.getElementsByTagName("main")[0].appendChild(x)
+            document.getElementById("gal").style.animationName="a"
+            document.getElementById("gal").style.animationDuration="2s"
+            document.getElementById("gal").style.animationFillMode="forwards"
         }
         function hatra(){
-            document.getElementById("gal").src=tomb[--hol]
-        } -->
-    </script>
+            //document.getElementById("gal").src=tomb[--hol]
+            document.getElementById("gal").style.animationName="a"
+            document.getElementById("gal").style.animationDuration="2s"
+            document.getElementById("gal").style.animationFillMode="backwards"
+        }
+    </script> -->
+    <a style="float: right;" href="#c">AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</a><br><a style="float: right;" href="#a">ddddddd</a>
+    <div id="teszt">
+        <div id="a" class="room">
+            <h2>Admin</h2>
+            <img src="images/admin.jpg" alt="roompic">
+        </div>
+        <div class="room">
+            <h2>Cafeteria</h2>
+            <img src="images/cafe.jpg" alt="roompic">
+        </div>
+        <div class="room">
+            <h2>Communications</h2>
+            <img src="images/com.jpg" alt="roompic">
+        </div>
+        <div class="room">
+            <h2>Electrical</h2>
+            <img src="images/elec.jpg" alt="roompic">
+        </div>
+        <div class="room">
+            <h2>Lower Engine</h2>
+            <img src="images/eng.jpg" alt="roompic">
+        </div>
+        <div id="c" class="room">
+            <h2>Medbay</h2>
+            <img src="images/med.jpg" alt="roompic">
+        </div>
+        <div class="room">
+            <h2>Navigation</h2>
+            <img src="images/nav.jpg" alt="roompic">
+        </div>
+        <div class="room">
+            <h2>O2</h2>
+            <img src="images/o2.jpg" alt="roompic">
+        </div>
+        <div class="room">
+            <h2>Reactor</h2>
+            <img src="images/rect.jpg" alt="roompic">
+        </div>
+    </div>
 </body>
 </html>
