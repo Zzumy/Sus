@@ -368,12 +368,16 @@ footer img{
 
 
 
-
+input{
+    width: 50px;
+    height: 50px;
+}
 
 #teszt img{
     width: 500px;
 }
 #teszt{
+    grid-area: kep;
     margin: auto;
     overscroll-behavior: contain;
     width: 500px;
@@ -381,4 +385,10 @@ footer img{
     overflow-x: hidden;
     scroll-snap-type: mandatory;
     scroll-behavior: smooth;
+}
+#nemtom{
+    display: grid;
+    grid-template-areas: "gomb1 kep gomb2";
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }

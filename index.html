@@ -179,43 +179,43 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <input type="button" value="<" onclick="hatra()">
-                <input type="button" value=">" onclick="elore()">
+            <div id="nemtom">
+                <input style="grid-area: gomb1; margin-left: auto;" type="button" value="<" onclick="hatra()">
+                <input style="grid-area: gomb2;" type="button" value=">" onclick="elore()">
                 <div id="teszt">
-                    <div id="a" class="room">
+                    <div class="room">
                         <h2>Admin</h2>
                         <img src="images/admin.jpg" alt="roompic">
                     </div>
-                    <div id="b" class="room">
+                    <div class="room">
                         <h2>Cafeteria</h2>
                         <img src="images/cafe.jpg" alt="roompic">
                     </div>
-                    <div id="c" class="room">
+                    <div class="room">
                         <h2>Communications</h2>
                         <img src="images/com.jpg" alt="roompic">
                     </div>
-                    <div id="d" class="room">
+                    <div class="room">
                         <h2>Electrical</h2>
                         <img src="images/elec.jpg" alt="roompic">
                     </div>
-                    <div id="e" class="room">
+                    <div class="room">
                         <h2>Lower Engine</h2>
                         <img src="images/eng.jpg" alt="roompic">
                     </div>
-                    <div id="f" class="room">
+                    <div class="room">
                         <h2>Medbay</h2>
                         <img src="images/med.jpg" alt="roompic">
                     </div>
-                    <div id="g" class="room">
+                    <div class="room">
                         <h2>Navigation</h2>
                         <img src="images/nav.jpg" alt="roompic">
                     </div>
-                    <div id="h" class="room">
+                    <div class="room">
                         <h2>O2</h2>
                         <img src="images/o2.jpg" alt="roompic">
                     </div>
-                    <div id="i" class="room">
+                    <div class="room">
                         <h2>Reactor</h2>
                         <img src="images/rect.jpg" alt="roompic">
                     </div>
@@ -229,15 +229,6 @@
             </p>
         </footer>
     </main>
-    <script>
-        var asd=["a","b","c","d","e","f","g","h","i"]
-        var hol=0
-        function elore(){
-            document.getElementById(asd[++hol]).scrollIntoView();
-        }
-        function hatra(){
-            document.getElementById(asd[--hol]).scrollIntoView();
-        }
-    </script>
+    <script src="sj.js"></script>
 </body>
 </html>
