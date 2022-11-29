@@ -378,7 +378,7 @@ footer img{
     overscroll-behavior: contain;
     width: 500px;
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     scroll-snap-type: mandatory;
     scroll-behavior: smooth;
 }
