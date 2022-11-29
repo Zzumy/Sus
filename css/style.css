@@ -347,12 +347,17 @@ footer img{
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 760px) {
     .platforms .availabilities{
         grid-template-columns: repeat(4,auto);
         
     }
     .milestones .awards{
         grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .platforms .availabilities{
+        grid-template-columns: repeat(3,auto);
     }
 }
