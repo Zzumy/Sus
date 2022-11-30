@@ -473,6 +473,7 @@ footer p{
         grid-template-columns: repeat(3,auto);
     }
 }
+
 @media only screen and (max-width: 550px) {
     .platforms .availabilities{
         grid-template-columns: repeat(2,auto);
@@ -489,4 +490,3 @@ footer p{
 *{
     position: relative;
     animation: a 3s;
-}
