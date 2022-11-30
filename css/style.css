@@ -63,7 +63,6 @@ html{
     font-size: 40px;
 }
 
-
 .platforms .availabilities .platform a{
     text-decoration: none;
     color: white;
@@ -71,7 +70,6 @@ html{
     border-radius: 5px;
     padding: 15px 5px;
 }
-
 
 .platforms .availabilities .platform a:hover{
     border: 4px solid white;
@@ -131,7 +129,6 @@ html{
     padding: 15px;
 }
 
-
 .milestones .awards .award:hover{
     background-color: rgb(22, 22, 22);
     margin: 10px;
@@ -150,18 +147,66 @@ html{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 .introduction{
     background-image: url("../images/artback2.jpg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 2%;
-    height: 8%;
+    background-position: center;
+    padding-top: 8%;
+    width: 100%;
     font-size: 25px;
 }
 
 .introduction h1 span{
     border-bottom: 2px solid white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.description{
+    background-image: url("../images/artback.jpg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10%;
+    padding-bottom: 20%;
+    width: 100%;
+    font-size: 25px;
+}
+
+.description h1 span{
+    border-bottom: 2px solid white;
+}
+
 
 
 
@@ -192,7 +237,7 @@ html{
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
     margin: auto;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .explainfriendly .crews .crew img{
@@ -204,6 +249,12 @@ html{
 .explainfriendly .crews .crew{
     margin: 20px;
 }
+
+.explainfriendly h1 span{
+    border-bottom: 2px solid white;
+    font-size: 30px;
+}
+
 
 
 
@@ -228,7 +279,7 @@ html{
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
     margin: auto;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .explainenemy .susys .sus img{
@@ -241,6 +292,10 @@ html{
     margin: 20px;
 }
 
+.explainenemy h1 span{
+    border-bottom: 2px solid white;
+    font-size: 30px;
+}
 
 
 
@@ -255,6 +310,24 @@ html{
 
 
 
+
+
+
+
+
+
+
+
+
+.places h1 span{
+    border-bottom: 2px solid white;
+    font-size: 30px;
+}
+
+.places .rooms .room h2 span{
+    border-bottom: 2px solid white;
+    font-size: 25px;
+}
 
 .places .rooms{
     display: grid;
@@ -281,6 +354,8 @@ html{
 
 
 
+
+
 footer{
     grid-area: f;
     text-align: center;
@@ -288,7 +363,13 @@ footer{
 
 footer img{
     margin: 0;
-    width: 100%;
+    width: 50%;
+}
+
+footer p{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
 }
 
 
